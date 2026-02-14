@@ -3,26 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ouka sududa 💖</title>
+    <title>A Special Message 💖</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="hearts-container" id="hearts"></div>
 
-    <div class="card">
-      <div id="question-section">
+    <div class="card" id="main-card">
+      <div id="page1" class="page active">
         <img
-          id="main-gif"
-          src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM25idHlodm04M2p6Ym1pZ3R4bm9uNGRueXQzZzNndW83ZzB0bmV6ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
-          alt="Cute Bear"
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueGZ3bm9qZ3RreHByZzZueXh5eHh5eHh5eHh5eHh5eHh5JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/26FLdmIp6wJr91JAI/giphy.gif"
+          class="main-gif"
         />
-        <h1 class="title">puka suduinm witharak be my Valentine? 🌹</h1>
-        <p id="message">I promise it'll be fun! ✨</p>
+        <h1 class="title">Hey Sudu... ❤️</h1>
+        <p>I have something important to ask you.</p>
+        <button class="next-btn" onclick="nextPage(2)">Click to open 💌</button>
+      </div>
 
+      <div id="page2" class="page">
+        <img
+          src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM25idHlodm04M2p6Ym1pZ3R4bm9uNGRueXQzZzNndW83ZzB0bmV6ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
+          class="main-gif"
+        />
+        <h1 class="title">
+          puka suduinm witharak be my
+          <span class="highlight">Valentine?</span> 🌹
+        </h1>
         <div class="btn-group">
           <button id="yesBtn">Yes! 😍</button>
           <button id="noBtn">No 🥺</button>
         </div>
+      </div>
+
+      <div id="page3" class="page">
+        <h1 class="title">Yay! It's a date! ❤️</h1>
+        <div class="image-gallery">
+          <img src="val.jpeg" class="gallery-img" />
+          <img
+            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVuYnRodm04M2p6Ym1pZ3R4bm9uNGRueXQzZzNndW83ZzB0bmV6ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif"
+            class="gallery-img"
+          />
+        </div>
+        <p>I can't wait to spend the day with you! ✨</p>
       </div>
     </div>
 
